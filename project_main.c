@@ -22,7 +22,7 @@
 #include "sensors/opt3001.h"
 
 /* Task */
-#define STACKSIZE 1024
+#define STACKSIZE 2048
 Char sensorTaskStack[STACKSIZE];
 Char uartTaskStack[STACKSIZE];
 
@@ -78,7 +78,9 @@ Void sensorTaskFxn(UArg arg0, UArg arg1) {
     // JTKJ: Exercise 2. Open the i2c bus
 
     // JTKJ: Tehtävä 2. Alusta sensorin OPT3001 setup-funktiolla
+    //       Laita enne funktiokutsua eteen 100ms viive (Task_sleep)
     // JTKJ: Exercise 2. Setup the OPT3001 sensor for use
+    //       Before calling the setup function, insertt 100ms delay with Task_sleep
 
     while (1) {
 
