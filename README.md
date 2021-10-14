@@ -8,6 +8,8 @@
 
 **buzzer.h**: Header file for the above example
 
+**PWM_Led_example.c**: How to use [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation) to control led brightness
+
 **mpu9250_example.c**: How to use the MPU9250 sensor with its own i2c-interface. Please see also the course material explaining more details. 
 
 **project_main.c**: main file for the course project template
