@@ -1,4 +1,4 @@
-# Useful code examples for SensorTag
+# Useful code examples and other software for SensorTag
 
 **sensors**: This directory contains the library files for different SensorTag sensors
 
@@ -15,3 +15,5 @@
 **project_main.c**: main file for the course project template
 
 **relay.c**: How to use the SensorTag [Reed relay](https://en.wikipedia.org/wiki/Reed_relay)
+
+**firmware_3.0.0.18.bin**: Current debugger firmware for required update
