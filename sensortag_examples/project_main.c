@@ -110,7 +110,7 @@ Int main(void) {
 
     // Initialize board
     Board_initGeneral();
-    Init6LoWPAN();
+
     
     // JTKJ: Tehtävä 2. Ota i2c-väylä käyttöön ohjelmassa
     // JTKJ: Exercise 2. Initialize i2c bus
