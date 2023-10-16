@@ -18,7 +18,6 @@
 
 /* Board Header files */
 #include "Board.h"
-#include "wireless/comm_lib.h"
 #include "sensors/opt3001.h"
 
 /* Task */
